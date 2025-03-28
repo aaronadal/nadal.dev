@@ -50,7 +50,7 @@ import AboutMe from './components/AboutMe.vue';
 
   <div class="footer">
     <section>
-      <p>Thanks for reading <3</p>
+      <p>Thanks for reading &lt;3</p>
     </section>
   </div>
 </template>
