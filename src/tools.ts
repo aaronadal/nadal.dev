@@ -66,7 +66,7 @@ export type ToolType = {
   key: string;
   name: string;
   component: unknown;
-  labels: ToolLabelKey[];
+  labels: ToolLabelKey[]&string[];
 };
 
 // prettier-ignore

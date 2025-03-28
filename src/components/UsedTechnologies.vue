@@ -51,9 +51,9 @@ function onLabelSelected(label: ToolLabelKey) {
         :key="tool.key"
         :tool="tool"
         :class="{
-          matching: tool.labels.indexOf(selectedLabel || hoverLabel) !== -1,
-          [`${hoverLabel}`]: tool.labels.indexOf(hoverLabel) !== -1,
-          [`${selectedLabel}`]: tool.labels.indexOf(selectedLabel) !== -1,
+          matching: tool.labels.indexOf(selectedLabel || hoverLabel || '') !== -1,
+          [`${hoverLabel}`]: tool.labels.indexOf(hoverLabel || '') !== -1,
+          [`${selectedLabel}`]: tool.labels.indexOf(selectedLabel || '') !== -1,
         }"
       />
     </div>
