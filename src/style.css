@@ -255,7 +255,6 @@
     }
   }
 
-
   .show-more {
     @apply inline-block text-accent cursor-pointer font-bold;
   }
@@ -409,7 +408,7 @@
     .text {
       @apply hidden lg:block mb-6 lg:mb-0;
 
-      &.shown{
+      &.shown {
         @apply block;
       }
     }
