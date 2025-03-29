@@ -17,6 +17,7 @@ import GoogleCloud from './components/logos/GoogleCloud.vue';
 import Hyperdx from './components/logos/Hyperdx.vue';
 import Jest from './components/logos/Jest.vue';
 import JetBrains from './components/logos/JetBrains.vue';
+import K6 from './components/logos/K6.vue';
 import Kubernetes from './components/logos/Kubernetes.vue';
 import Mongodb from './components/logos/Mongodb.vue';
 import Mysql from './components/logos/Mysql.vue';
@@ -95,6 +96,7 @@ export const ALL_TOOLS = {
   phpstan:          { key: 'phpstan',       name: 'PhpStan',           component: Phpstan,         labels: ['quality'] }                    as ToolType,
   jest:             { key: 'jest',          name: 'Jest',              component: Jest,            labels: ['quality'] }                    as ToolType,
   eslint:           { key: 'eslint',        name: 'ESLint',            component: Eslint,          labels: ['quality'] }                    as ToolType,
+  k6:               { key: 'k6',            name: 'K6',                component: K6,              labels: ['quality'] }                    as ToolType,
   sentry:           { key: 'sentry',        name: 'Sentry',            component: Sentry,          labels: ['quality', 'monitoring'] }      as ToolType,
   hyperdx:          { key: 'hyperdx',       name: 'HyperDX',           component: Hyperdx,         labels: ['monitoring'] }                 as ToolType,
   postgresql:       { key: 'postgresql',    name: 'PostgreSQL',        component: Postgresql,      labels: ['persistence'] }                as ToolType,
