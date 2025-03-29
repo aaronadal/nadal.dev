@@ -7,6 +7,7 @@ import UsedTechnologies from './components/UsedTechnologies.vue';
 import PersonalProjects from './components/PersonalProjects.vue';
 import ContactMethods from './components/ContactMethods.vue';
 import AboutMe from './components/AboutMe.vue';
+import DownIcon from './components/DownIcon.vue';
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import AboutMe from './components/AboutMe.vue';
         <ExperienceBar />
       </section>
 
-      <div class="scroll">&#8964;</div>
+      <DownIcon class="scroll" />
     </div>
 
     <section>
