@@ -43,36 +43,36 @@ const showMore = ref(false);
 <template>
   <div class="about-me">
     <div class="description" :class="{ featured: skill !== null, [`${skill}`]: skill !== null }">
-      <div class="text" :class="{ 'shown': showMore }">
-      <p>
-        <span class="curious adaptable">
-          I am a <b>curious, committed, and highly adaptable</b> professional.</span
-        >
-        <span class="learner">
-          I thrive on tackling new challenges and <b>continuously learning</b>, always striving to
-          improve in every project I take on.</span
-        >
-        <span class="detail-oriented">
-          <b> Attention to detail and strong organizational skills</b> are key aspects of my work,
-          allowing me to manage teams and coordinate tasks efficiently.</span
-        >
-      </p>
-      <p>
-        <span class="humorous positive"
-          >I believe that enjoying what you do is just as important as doing it well. That's why I
-          bring a <b>sense of humor and a positive attitude</b> to every collaboration.</span
-        >
-        I am motivated by collaboration in multidisciplinary and multicultural environments, where
-        communication and leadership play a crucial role.
-        <span class="learner"
-          >I believe in continuous learning and the importance of flexibility to successfully
-          navigate change.</span
-        >
-        <span class="knowledge-sharer">
-          Additionally, I am passionate about
-          <b>sharing knowledge and contributing to the growth of those around me</b></span
-        >.
-      </p>
+      <div class="text" :class="{ shown: showMore }">
+        <p>
+          <span class="curious adaptable">
+            I am a <b>curious, committed, and highly adaptable</b> professional.</span
+          >
+          <span class="learner">
+            I thrive on tackling new challenges and <b>continuously learning</b>, always striving to
+            improve in every project I take on.</span
+          >
+          <span class="detail-oriented">
+            <b> Attention to detail and strong organizational skills</b> are key aspects of my work,
+            allowing me to manage teams and coordinate tasks efficiently.</span
+          >
+        </p>
+        <p>
+          <span class="humorous positive"
+            >I believe that enjoying what you do is just as important as doing it well. That's why I
+            bring a <b>sense of humor and a positive attitude</b> to every collaboration.</span
+          >
+          I am motivated by collaboration in multidisciplinary and multicultural environments, where
+          communication and leadership play a crucial role.
+          <span class="learner"
+            >I believe in continuous learning and the importance of flexibility to successfully
+            navigate change.</span
+          >
+          <span class="knowledge-sharer">
+            Additionally, I am passionate about
+            <b>sharing knowledge and contributing to the growth of those around me</b></span
+          >.
+        </p>
       </div>
 
       <a class="show-more" @click="showMore = !showMore">

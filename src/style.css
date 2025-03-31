@@ -144,14 +144,14 @@
   }
 
   .frontpage {
-    @apply h-dvh flex flex-col justify-center pb-36;
+    @apply relative min-h-dvh flex flex-col justify-center pt-24 pb-48;
 
     section {
       @apply mt-0;
     }
 
     .scroll {
-      @apply text-7xl absolute bottom-24 left-1/2 transform -translate-x-1/2 cursor-default animate-bounce text-neutral;
+      @apply w-16 h-16 absolute bottom-12 left-1/2 transform -translate-x-1/2 cursor-default animate-bounce fill-current text-neutral;
     }
   }
 
@@ -254,7 +254,6 @@
       }
     }
   }
-
 
   .show-more {
     @apply inline-block text-accent cursor-pointer font-bold;
@@ -409,7 +408,7 @@
     .text {
       @apply hidden lg:block mb-6 lg:mb-0;
 
-      &.shown{
+      &.shown {
         @apply block;
       }
     }
