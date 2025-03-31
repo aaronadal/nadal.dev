@@ -39,7 +39,7 @@ The website is deployed on [Vercel](https://vercel.com/), enabling continuous in
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License.
 
 
 ## Contact
