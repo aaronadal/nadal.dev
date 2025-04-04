@@ -39,6 +39,7 @@ import Sentry from './components/logos/Sentry.vue';
 import Serverless from './components/logos/Serverless.vue';
 import Symfony from './components/logos/Symfony.vue';
 import Tailwind from './components/logos/Tailwind.vue';
+import Traefik from './components/logos/Traefik.vue';
 import Typescript from './components/logos/Typescript.vue';
 import Vercel from './components/logos/Vercel.vue';
 import VisualStudio from './components/logos/VisualStudio.vue';
@@ -111,6 +112,7 @@ export const ALL_TOOLS = {
   aws:              { key: 'aws',           name: 'AWS',               component: Aws,             labels: ['infrastructure', 'cicd'] }     as ToolType,
   vercel:           { key: 'vercel',        name: 'Vercel',            component: Vercel,          labels: ['infrastructure', 'cicd'] }     as ToolType,
   serverless:       { key: 'serverless',    name: 'Serverless',        component: Serverless,      labels: ['infrastructure', 'cicd'] }     as ToolType,
+  traefik:          { key: 'traefik',       name: 'Traefik',           component: Traefik,         labels: ['infrastructure'] }             as ToolType,
   nginx:            { key: 'nginx',         name: 'Nginx',             component: Nginx,           labels: ['infrastructure'] }             as ToolType,
   apache:           { key: 'apache',        name: 'Apache',            component: Apache,          labels: ['infrastructure'] }             as ToolType,
   git:              { key: 'git',           name: 'Git',               component: Git,             labels: ['vcs'] }                        as ToolType,
